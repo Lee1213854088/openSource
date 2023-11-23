@@ -28,6 +28,7 @@ import java.util.Map;
  */
 class Solution1 {
     public String fractionToDecimal(int numerator, int denominator) {
+        //modify
         long numeratorLong = (long) numerator;
         long denominatorLong = (long) denominator;
         if (numeratorLong % denominatorLong == 0) {

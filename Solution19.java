@@ -20,6 +20,7 @@ import java.util.*;
  */
 class Solution {
     public void gameOfLife(int[][] board) {
+        //修改
         int[] neighbors = {0, 1, -1};
 
         int rows = board.length();
